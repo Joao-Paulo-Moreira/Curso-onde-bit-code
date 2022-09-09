@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+   <h1>Cadastro da liga dos astronautas.</h1>
+   <form action="https://example.com">
+      <label for="myName">
+         Nome: <input type="text" name="name" id="myName">
+      </label>
+      <br>
+      <br>
+      <label for="myEmail">
+         Email: <input type="email" name="mail" id="myEmail">
+      </label>
+      <label for="myPassword">
+         -Senha <input type="password" name="pass" id="myPassword">
+      </label>
+      <br>
+      <br>
+      <label for="dateBorn">
+         Data de nascimento <input type="date" name="born" id="dateBorn">
+      </label>
+      <label for="myPhoto">
+         - Foto <input type="file" name="photo" id="myPhoto">
+      </label>
+      <br>
+      <br>
+      <label for="myCountry">
+         nacionalidade 
+         <select name="nations" id="myCountry">
+            <option value="country">Estados Unidos</option>
+            <option value="country">Alemanha</option>
+            <option value="country">França</option>
+            <option value="country">China</option>
+         </select>
+      </label>
+      <label for="myGender">
+         <label for="maleGender">
+            Genero: Male - <input type="radio" name="male" id="maleGender">
+         </label> 
+         <label for="femalemaleGender">
+            Female - <input type="radio" name="female" id="femalemaleGender">
+         </label>
+      </label>
+      <br>
+      <br>
+      <p>Suas principais qualidades.</p>
+      <br>
+      <label>
+         <label for="mySmart">
+            Inteligência <input type="checkbox" name="smart" id="mySmart">
+         </label>
+         &VerticalBar;
+         <label for="myResilience">
+            Resiliência <input type="checkbox" name="resilience" id="myResilience">
+         </label>
+         &VerticalBar;
+         <label for="myEndurance">
+            Preparo físico <input type="checkbox" name="endurance" id="myEndurance">
+         </label>
+         &VerticalBar;
+         <label for="myEducation">
+            Educação <input type="checkbox" name="education" id="myEducation">
+         </label>
+      </label>
+      <br>
+      <label for="textArea">
+         <p>Por que você gostaria de virar um astronauta?</p>
+         <textarea name="text" id="textArea" cols="30" rows="10"></textarea>
+      </label>
+      <br>
+      <input type="submit" value="Enviar">
+   </form>
+</body>
+</html>
