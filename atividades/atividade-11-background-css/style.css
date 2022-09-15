@@ -2,6 +2,10 @@ body {
    background-color: grey;
 }
 
+.title {
+   background-color: antiquewhite;
+}
+
 .numeros {
    margin: 10px;
    display: flex;
