@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+   --colorData: #008080;
+   --backGroundPosts: #fffafa;
+   --h1: 'Montserrat', sans-serif;
+   --date:'Roboto', sans-serif;
+   --postContent: 'Open Sans', sans-serif;
+}
+
+.post-container {
+   width: 900px;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+.date {
+   color: var(--colorData);
+   font-family: var(--date);
+}
+
+h1 {
+   font-family: var(--h1);
+}
+
+.post-content {
+   font-family: var(--postContent);
+}
+
+.post {
+   padding: 20px;
+}
