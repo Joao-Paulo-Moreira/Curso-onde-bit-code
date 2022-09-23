@@ -1,0 +1,31 @@
+#flexBox {
+   width: 800px;
+   height: 800px;
+   border: 2px solid black;
+   background-color: antiquewhite;
+   display: flex;
+}
+
+.flexOne {
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-color: blueviolet;
+   margin: 10px;
+}
+
+.flexTwo {
+   margin: 10px;
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-color: red;
+}
+
+.flexThree {
+   margin: 10px;
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   background-color: chocolate;
+}
