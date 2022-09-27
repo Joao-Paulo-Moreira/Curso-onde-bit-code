@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+menu {
+   background-color: black;
+}
+
+.menuLogo > img {
+   width: 40px;
+   margin: 25px ;
+}
+
+.menuGif {
+   width: 40px;
+}
+
+.menuAll {
+   display: flex;
+   justify-content: space-between;
+}
+
+nav {
+   margin: 25px;
+}
+
+nav > ul {
+   display: flex;
+   gap: 0px 15px;
+}
+
+nav > ul > li {
+   color: white;
+   border: 2px solid white;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 1px grey;
+   cursor: pointer;
+}
