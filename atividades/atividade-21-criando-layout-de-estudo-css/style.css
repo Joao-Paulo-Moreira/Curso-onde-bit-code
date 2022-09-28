@@ -8,18 +8,25 @@
    background-color: antiquewhite;
    min-height: 100vh;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    gap: 0px 15px;
    justify-content: center;
    align-items: center;
 }
 
 .item{
-   width: 200px;
+   width: 100%;
    height: 200px;
    border: 2px solid black;
    background-color: aliceblue;
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.item-01 {
+}
+
+.item-02{
+   flex: 1 0 200px;
 }
