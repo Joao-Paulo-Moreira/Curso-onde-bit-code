@@ -1,0 +1,13 @@
+@mixin text-style ($color, $fontSize, $fontFamily) {
+   color: $color;
+   font-size: $fontSize;
+   font-family: $fontFamily;
+}
+.texts {
+   h1{
+      @include text-style(#ff4043, 35px, cursive)
+   }
+   p{
+      @include text-style(blue, 19px, cursive)
+   }
+}
