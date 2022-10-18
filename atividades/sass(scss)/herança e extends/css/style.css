@@ -1,0 +1,22 @@
+.btn {
+  padding: 15px;
+  width: 150px;
+  font-family: cursive;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn.btn-roxo {
+  background-color: rebeccapurple;
+  color: white;
+}
+.btn.btn-amarelo {
+  background-color: yellow;
+}
+.btn.btn-azul {
+  background-color: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
