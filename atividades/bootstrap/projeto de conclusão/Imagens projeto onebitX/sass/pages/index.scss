@@ -2,3 +2,37 @@
    font-size: 12px;
    font-weight: bold;
 }
+
+.logoPc{
+   width: 240px;
+   margin-left: -10px;
+   margin-right: 20px;
+}
+
+.container00{
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.container00{
+   &.container01{
+      background-image: url('../../imgs/home/01.jpg');
+   }
+   &.container02{
+      background-image: url('../../imgs/home/03.jpg');
+   }
+   &.container03{
+      background-image: url('../../imgs/home/02.gif');
+   }
+   &.container04{
+      background-image: url('../../imgs/home/04.jpg');
+   }
+}
+
+.arrowDown {
+   width: 90px;
+   display: inline-block;
+   margin-top: 5px;
+}
