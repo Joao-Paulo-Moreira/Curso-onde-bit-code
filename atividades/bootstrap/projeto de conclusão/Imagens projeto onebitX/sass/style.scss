@@ -1,15 +1,27 @@
-.container00.container01 {
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.bg-img-01{
    background-image: url('../imgs/home/01.jpg');
-   height: 100vh;
    background-size: contain;
    background-repeat: no-repeat;
+   height: 100vh;
 }
 
-.navbar-nav{
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+   color: white;
+}
+
+header{
+   padding: 10px;
+}
+
+.navbar-nav {
    li{
       a{
-         color: white;
-      }
+         color: white
+      };
    }
 }
-
