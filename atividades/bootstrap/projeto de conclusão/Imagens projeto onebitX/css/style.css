@@ -1,25 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-}
-
-.bg-img-01 {
-  background-image: url("../imgs/home/01.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   color: white;
 }
 
-header {
-  padding: 10px;
-}
-
-.navbar-nav li a {
-  color: white;
+.header {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

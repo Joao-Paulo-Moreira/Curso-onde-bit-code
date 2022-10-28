@@ -1,27 +1,7 @@
-*{
-   margin: 0;
-   padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import "communElements/vars.scss";
+@import "communElements/comunElements.scss";
+@import "pages/index.scss";
+@import "pages/falcon9.scss";
+@import "pages/humans.scss";
 
-.bg-img-01{
-   background-image: url('../imgs/home/01.jpg');
-   background-size: contain;
-   background-repeat: no-repeat;
-   height: 100vh;
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-   color: white;
-}
-
-header{
-   padding: 10px;
-}
-
-.navbar-nav {
-   li{
-      a{
-         color: white
-      };
-   }
-}
