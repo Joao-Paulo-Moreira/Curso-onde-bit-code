@@ -37,7 +37,47 @@
 .arrowDown {
   width: 90px;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 25px;
+}
+
+.titlePadding {
+  padding: 240px;
+}
+
+button#button {
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 15px;
+  width: 150px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  padding: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+footer .copyJoao {
+  color: #555252;
+}
+footer a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #b9b9b9;
 }
 
 /*# sourceMappingURL=style.css.map */
