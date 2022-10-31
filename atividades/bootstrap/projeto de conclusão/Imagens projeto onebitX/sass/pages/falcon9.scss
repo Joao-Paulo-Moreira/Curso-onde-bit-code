@@ -1,0 +1,55 @@
+.header {
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.logoPc{
+   width: 240px;
+   margin-left: -10px;
+   margin-right: 20px;
+}
+.container00{
+   &.container05{
+      background-image: url('../../imgs/falcon9/01.jpg');
+   }
+   &.container06{
+      background-image: url('../../imgs/falcon9/02.jpg');
+   }
+   &.container07{
+      background-image: url('../../imgs/falcon9/08.jpg');
+   }
+}
+
+.edit-dark{
+   background-color: black;
+   height: 40vh;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   .h1{
+      font-size: 5em;
+   }
+   p{
+      font-size: 1.5em;
+   }
+}
+
+footer {
+   background-color: black;
+   height: 10vh;
+   padding: 50px;
+   text-align: center;
+   transition: .5s;
+   .copyJoao{
+      color: $copy-color;
+   }
+   a{
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      &:hover{
+         color: $link-hover;
+      }
+   }
+}

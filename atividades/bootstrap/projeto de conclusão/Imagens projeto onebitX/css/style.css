@@ -80,4 +80,59 @@ footer a:hover {
   color: #b9b9b9;
 }
 
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.container00.container05 {
+  background-image: url("../../imgs/falcon9/01.jpg");
+}
+.container00.container06 {
+  background-image: url("../../imgs/falcon9/02.jpg");
+}
+.container00.container07 {
+  background-image: url("../../imgs/falcon9/08.jpg");
+}
+
+.edit-dark {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.edit-dark .h1 {
+  font-size: 5em;
+}
+.edit-dark p {
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  padding: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+footer .copyJoao {
+  color: #555252;
+}
+footer a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #b9b9b9;
+}
+
 /*# sourceMappingURL=style.css.map */
