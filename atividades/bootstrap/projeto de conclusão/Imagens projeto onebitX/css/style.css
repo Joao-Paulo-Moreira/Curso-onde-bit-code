@@ -177,4 +177,82 @@ footer a:hover {
   padding: 15px;
 }
 
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container00.containerHuman01 {
+  background-image: url("../../imgs/humanFlight/01.jpg");
+}
+.container00.containerHuman02 {
+  background-image: url("../../imgs/humanFlight/02.jpg");
+}
+.container00.containerHuman03 {
+  background-image: url("../../imgs/humanFlight/03.jpg");
+}
+.container00.containerHuman04 {
+  background-image: url("../../imgs/humanFlight/04.jpg");
+}
+.container00.containerHuman05 {
+  background-image: url("../../imgs/humanFlight/05.jpg");
+}
+
+.textEdit h1 {
+  font-size: 120px;
+}
+.textEdit p {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.humanDescription {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.humanDescription p {
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.spaceRight {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  padding-top: 240px;
+}
+.spaceRight p {
+  line-height: 70px;
+}
+.spaceRight .h5 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.spaceRight .h1 {
+  font-size: 40px;
+}
+
+.spaceLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding-top: 240px;
+}
+.spaceLeft p {
+  line-height: 70px;
+}
+.spaceLeft .h5 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.spaceLeft .h1 {
+  font-size: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
