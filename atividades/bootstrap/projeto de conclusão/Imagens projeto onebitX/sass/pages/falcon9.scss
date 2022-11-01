@@ -18,20 +18,35 @@
    &.container07{
       background-image: url('../../imgs/falcon9/08.jpg');
    }
+   &.carrossel01{
+      background-image: url('../../imgs/falcon9/03.jpg');
+   }
+   &.carrossel02{
+      background-image: url('../../imgs/falcon9/04.jpg');
+   }
+   &.carrossel03{
+      background-image: url('../../imgs/falcon9/05.jpg');
+   }
+   &.carrossel04{
+      background-image: url('../../imgs/falcon9/06.jpg');
+   }
+   &.carrossel05{
+      background-image: url('../../imgs/falcon9/07.jpg');
+   }
 }
 
 .edit-dark{
    background-color: black;
    height: 40vh;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
    .h1{
-      font-size: 5em;
+      font-size: 90px;
    }
    p{
-      font-size: 1.5em;
+      font-size: 20pxem;
    }
 }
 
@@ -51,5 +66,34 @@ footer {
       &:hover{
          color: $link-hover;
       }
+   }
+}
+
+#overViewPosition {
+   width: 500px;
+   margin-left: 13%;
+   padding-top: 15%;
+}
+
+.carousel-caption{
+   p{
+      background-color: black;
+   }
+}
+
+.dowloadDesc {
+   background-color: black;
+   height: 85vh;
+   padding-top: 240px;
+   span{
+      color: $copy-color;
+      &:hover{
+         text-decoration: underline;
+      }
+   }
+   button{
+      border: 2px solid white;
+      border-radius: 0px;
+      padding: 15px;
    }
 }
