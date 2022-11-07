@@ -8,6 +8,15 @@
   font-weight: bold;
 }
 
+a {
+  padding: 10px;
+  color: white !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #b9b9b9;
+}
+
 .logoPc {
   width: 240px;
   margin-left: -10px;

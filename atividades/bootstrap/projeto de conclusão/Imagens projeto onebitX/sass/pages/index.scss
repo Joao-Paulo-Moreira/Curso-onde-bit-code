@@ -3,6 +3,15 @@
    font-weight: bold;
 }
 
+a{
+   padding: 10px;
+   color: white !important;
+   text-decoration: none !important;
+   &:hover{
+      color: $link-hover;
+   }
+}
+
 .logoPc{
    width: 240px;
    margin-left: -10px;
