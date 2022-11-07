@@ -85,3 +85,20 @@ footer {
       }
    }
 }
+
+@media only screen and (max-width: 770px){
+   .mediumTitle{
+      width: 400px;
+   }
+   .shortTitle{
+      width: 400px;
+   }
+   @media only screen and (max-width: 450px){
+      .shortTitle{
+         width: 225px;
+      }
+      .mediumTitle{
+         width: 225px;
+      }
+   }
+}
