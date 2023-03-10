@@ -1,9 +1,11 @@
 import {inline} from "./inline.js";
 import defaultInline from "./inline.js";
+import { group } from "./no-inline.js";
+import groupExportDefault from "./no-inline.js";
 
 
 inline()
 defaultInline()
 
-HTMLOptGroupElement()
-exportDefault()
+group()
+groupExportDefault()
