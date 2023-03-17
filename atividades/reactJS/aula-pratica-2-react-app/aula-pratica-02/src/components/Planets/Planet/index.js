@@ -1,16 +1,15 @@
 import React from "react";
-import './style.css';
+import GrayImg from "../../shared/gray_img";
 
 
-const planet = () => {
+const planet = (props) => {
     return (
         <div>
-            <h4>Terra</h4>
-            <p>Lorem ipsum dolor sit amet. Ex facere illum et fugit tempora quo delectus velit. Aut iusto amet aut rerum quas eos sequi distinctio.</p>
-            <img className="greyImage" src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" alt="planetEarth" width="300px"/>
+            <h4>{props.title}</h4>
+            <p>{props.description}</p>
+            <GrayImg img_url={props.img_url}/>
         </div>
     );
 };
-
 
 export default planet;
