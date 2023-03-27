@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}
