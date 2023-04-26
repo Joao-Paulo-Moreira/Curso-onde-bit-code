@@ -1,16 +1,16 @@
-module.exports = class Product{
-    constructor(name, description, price, in_stock = 0){
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.in_stock = in_stock;
+module.exports = class Product {
+    constructor(name, description, price, inStock = 0) {
+        this.name = name
+        this.description = description
+        this.price = price
+        this.inStock = inStock
     }
 
-    add_to_stock(quantity){
-        return this.in_stock += quantity
+    addToStock(quantity) {
+        this.inStock += quantity
     }
 
-    remove_from_stock(quantity){
-        return this.in_stock -= quantity
+    removeFromStock(quantity) {
+        this.inStock -= quantity
     }
 }

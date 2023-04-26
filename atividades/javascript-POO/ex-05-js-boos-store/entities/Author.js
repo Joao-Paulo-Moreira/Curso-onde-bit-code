@@ -1,7 +1,7 @@
 module.exports = class Author {
-    constructor(name, nacionality, bio){
-        this.name = name;
-        this.nacionality = nacionality
-        this.bio = bio;
+    constructor(name, nationality, bio) {
+      this.name = name
+      this.nationality = nationality
+      this.bio = bio
     }
-}
+  }

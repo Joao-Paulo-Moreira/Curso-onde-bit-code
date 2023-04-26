@@ -1,7 +1,7 @@
-module.exports = class User{
-    constructor(username, email, password){
-        this.username = username;
-        this.email = email;
-        this.password = password;
+module.exports = class User {
+    constructor(name, email, password) {
+      this.name = name
+      this.email = email
+      this.password = password
     }
-}
+  }
