@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background_color: #191919;
+    --text_color: #E6E6E6;
+    --shadow_color: #B3B3B3;
+    --assets_color: #664747;
+    --assets_color_hover: #513b3b;
+}
+
+body{
+    background-color: var(--background_color);
+}
+
+h1{
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--text_color);
+    padding: 15px;
+    font-family: cursive;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 40px auto;
+    padding: 10px;
+    border: 2px solid var(--shadow_color);
+    box-shadow: 1px 1px 1px var(--shadow_color);
+    border-radius: 10px;
+}
+
+form > p {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-style: italic;
+    color: var(--text_color);
+}
+
+input{
+    margin: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.botao_enviar{
+    background-color: var(--assets_color);
+    border: none;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-style: italic;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    height: 10%;
+    color: var(--text_color);
+    letter-spacing: 1px;
+}
+
+.botao_enviar:hover{
+    transition: .5s;
+    background-color: var(--assets_color_hover);
+}
+
+.error {
+    border: 2px solid #f64348;
+}
+.success {
+    border: 2px solid #43f67f;
+}
